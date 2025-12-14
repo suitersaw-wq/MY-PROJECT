@@ -15,6 +15,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run format` - Format code with Prettier
 - `npm run format:check` - Check formatting without changes
 
+## Docker
+
+- `docker build -t my-project .` - Build Docker image
+- `docker run my-project` - Run container
+
 ## CI
 
 GitHub Actions runs on push/PR to main:
