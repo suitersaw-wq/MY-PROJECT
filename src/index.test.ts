@@ -26,4 +26,10 @@ describe('API', () => {
     expect(res.status).toBe(200);
     expect(res.text).toBe('Hello, Austin!');
   });
+
+  it('POST /ai/chat should require message', async () => {
+    const res = await request(app).post('/ai/chat').send({});
+    expect(res.status).toBe(400);
+    expect(res.body).toEqual({ error: 'message is required' });
+  });
 });

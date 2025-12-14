@@ -50,3 +50,9 @@ The application runs an Express.js web server on port 3000.
 - `GET /` - Returns "Hello, World!"
 - `GET /health` - Returns `{"status": "ok"}`
 - `GET /greet/:name` - Returns personalized greeting
+- `POST /ai/chat` - Chat with Claude AI (requires `ANTHROPIC_API_KEY`)
+
+### Environment Variables
+
+- `PORT` - Server port (default: 3000)
+- `ANTHROPIC_API_KEY` - Required for `/ai/chat` endpoint
