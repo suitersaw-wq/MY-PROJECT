@@ -9,6 +9,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run dev` - Watch mode for development (recompiles on file changes)
 - `npm test` - Run tests with Jest
 - `npm test -- --watch` - Run tests in watch mode
+- `npm run lint` - Run ESLint
+- `npm run lint:fix` - Run ESLint with auto-fix
 
 ## Architecture
 
