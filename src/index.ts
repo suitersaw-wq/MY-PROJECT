@@ -3,7 +3,7 @@ export function greet(name: string): string {
 }
 
 export function main(): void {
-  console.log(greet("my-project"));
+  console.log(greet('my-project'));
 }
 
 main();

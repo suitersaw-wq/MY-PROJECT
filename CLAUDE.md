@@ -11,6 +11,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm test -- --watch` - Run tests in watch mode
 - `npm run lint` - Run ESLint
 - `npm run lint:fix` - Run ESLint with auto-fix
+- `npm run format` - Format code with Prettier
+- `npm run format:check` - Check formatting without changes
 
 ## Architecture
 
