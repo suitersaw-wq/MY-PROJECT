@@ -14,6 +14,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run format` - Format code with Prettier
 - `npm run format:check` - Check formatting without changes
 
+## CI
+
+GitHub Actions runs on push/PR to main:
+- Lint, format check, build, and test
+- Tests against Node.js 18, 20, and 22
+
 ## Architecture
 
 This is a Node.js/TypeScript project with a simple structure:
